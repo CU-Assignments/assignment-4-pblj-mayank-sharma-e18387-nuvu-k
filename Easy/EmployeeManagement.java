@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Employee {
-    private int id;
+    private final int id;
     private String name;
     private double salary;
 
@@ -15,16 +15,8 @@ class Employee {
         return id;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
-    }
-
-    public double getSalary() {
-        return salary;
     }
 
     public void setSalary(double salary) {
